@@ -1,0 +1,124 @@
+.Footer{
+ 
+  display: flex;
+    width: 100%;
+   height: 23vh;
+ 
+}
+
+.left{
+    
+flex: 50%;
+width: 100%;
+background-color: rgba(0, 0,0, 0.8) ;
+
+
+
+
+}
+.left .location{
+   margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.left .location p{
+   margin-left: 15px;
+   
+}
+
+.left .Phone{
+    margin-top: 10px;
+    padding: 5px;
+        display: flex;
+       justify-content: center;
+    
+    }
+    .left .Phone h4{
+       margin-left: 15px;
+     
+    }
+
+    .left .mail{
+        margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+        .left .mail h4{
+           margin-left: 15px;
+           
+           
+        }
+
+
+
+
+.Right{
+    flex: 50%;
+width: 100%;
+background-color: rgba(0, 0,0, 0.8);
+
+
+}
+.Right .icon{
+   
+    display: flex;
+    width: 50%;
+    height: 110px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Right .icon .facebook:hover{
+  background:#3b5998;
+ 
+}
+.Right .icon .FaTwitter:hover{
+  background: #26a7de;
+}
+.Right .icon .instagram:hover{
+  background:rgb(228, 64, 95);
+}
+.Right .icon .linkedin:hover{
+  background-color:#0A66C2;
+}
+
+@media screen  and (max-width:640px){
+    .Footer{
+      
+     
+     display: flex;
+        flex-direction: column;
+      height: auto;
+       
+    
+       
+    }
+    .Right{
+      
+      justify-content: left;
+      padding-left: 2rem;
+      flex: 100%;
+    }
+
+    .Right.icon{
+      padding-right: 1rem;
+    }
+    .left{
+      justify-content: left;
+      padding-left: 2rem;
+      flex: 100%;
+     
+    }
+    .left .location{
+      justify-content: flex-start;
+    }
+    .left .Phone{
+      justify-content: flex-start;
+    }
+    .left .mail{
+      justify-content: flex-start;
+    }
+}
+
