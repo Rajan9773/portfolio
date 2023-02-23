@@ -71,5 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### sample
-![alt text](https://github.com/Rajan9773/portfolio/blob/master/Screenshot%20(16).png)
-![alt text](https://github.com/Rajan9773/portfolio/blob/master/Screenshot%20(16).png?raw=true)
+<img src = "Screenshot(16).png">
